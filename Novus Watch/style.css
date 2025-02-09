@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    margin: 5rem auto;
+    width: 50%;
+    height: 50%;
+    background-color: #8686A4;
+}
+
+.new-watch-container{
+    width: 40%;
+    height: 40%;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.new-container{
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    outline: none;
+    border-radius: 2rem 7rem 7rem 2rem;
+    padding: 0.1rem 0.1rem;
+    position: relative;
+    bottom: -3.1rem;
+    right: 0.8rem;
+    background-color: #CAC290;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 1rem 1rem 0 0;
+    
+    
+}
+.watch-series{
+    width: auto;
+    height: auto;
+    padding: 1rem;
+    background-color: #FFF;
+    
+}
+
+h3{
+    padding: 0.4rem ;
+}
+.just-class{
+    padding: 0.6rem 0;
+}
+.series-iv{
+    font-size: 0.8rem;
+}
